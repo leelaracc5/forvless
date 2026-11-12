@@ -201,7 +201,7 @@ const server = http.createServer((req, res) => {
             uuid: uuid,
             port: port,
             host: hostname,
-            vless_uri: `vless://${uuid}@${hostname}:443?security=tls&fp=randomized&type=ws&${hostname}&encryption=none#Nothflank-By-ModsBots`
+            vless_uri: `vless://${uuid}@${hostname}:443?security=tls&fp=randomized&type=ws&${hostname}&encryption=none#aung`
         };
         res.writeHead(200, { 'Content-Type': 'application/json' });
         res.end(JSON.stringify(vlessConfig));
